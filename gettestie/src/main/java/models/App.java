@@ -1,4 +1,4 @@
-package rocks.zipcode;
+package models;
 
 /**
  * Hello world!

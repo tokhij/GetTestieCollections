@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple models.App.
  */
 public class AppTest {
     /**

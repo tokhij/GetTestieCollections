@@ -1,4 +1,4 @@
-package gettestie.src.main.java.rocks.zipcode;
+package models;
 
 public class Address {
     private String street;
@@ -7,14 +7,14 @@ public class Address {
     private String country;
 
     /**
-     * Construct an Address without country
+     * Construct an models.Address without country
      */
     public Address(String street, String town, String postCode) {
         this(street, town, postCode, "");
     }
 
     /**
-     * Construct an Address with full details
+     * Construct an models.Address with full details
      */
     public Address(String street, String town, String postCode, String country) {
         this.street = street;
